@@ -59,3 +59,23 @@ h1 {
     margin-right: auto;
     width: 95%;
 }
+
+.my-two-apps {
+    
+}
+
+#hiking-app {
+    display: inline;
+    border-radius: 10px;
+    margin-left: auto;
+    display: inline;
+    width: 30%;
+}
+
+#workout-app {
+    display: inline;
+    border-radius: 10px;
+    margin-right: auto;
+    display: inline;
+    width: 40%;
+}
