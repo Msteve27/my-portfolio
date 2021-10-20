@@ -27,10 +27,13 @@ nav ul li a {
 h1 {
     font-size: 5vw;
     margin: 0;
-    padding-top: 300px;
+    padding-top: 30px;
     text-align: center;
 }
 
+.main-tag{
+    padding-top: 150px;
+}
 .motto p {
     text-align: center;
     font-size: 1.5vw;
@@ -46,5 +49,13 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 10%;
+}
+
+.self-driving-car img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
