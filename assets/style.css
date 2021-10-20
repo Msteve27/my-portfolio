@@ -1,7 +1,7 @@
 * {
     font-family: Helvetica Neue;
 }
-
+/* apply styles to header */
 header {
     background-color: black;
 }
@@ -52,30 +52,21 @@ h1 {
     width: 10%;
 }
 
-.self-driving-car img {
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-}
 
-.my-two-apps {
-    
+.self-driving-car img {
+    width: 98%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 #hiking-app {
-    display: inline;
+    width: 40%;
+    margin-left: -8px;
     border-radius: 10px;
-    margin-left: auto;
-    display: inline;
-    width: 30%;
+    border-right: 10px;
 }
 
 #workout-app {
-    display: inline;
-    border-radius: 10px;
-    margin-right: auto;
-    display: inline;
-    width: 40%;
+    width: 58%;
+    margin-right: -50px;
 }
