@@ -1,7 +1,7 @@
 * {
     font-family: Helvetica Neue;
 }
-/* apply styles to header */
+/* styles to header begin */
 header {
     background-color: black;
 }
@@ -23,7 +23,9 @@ nav ul li a {
     text-decoration: none;
     list-style: none;
   }
+/* styles to header end */
 
+/* styles to hero begin */
 .main-tag h1 {
     font-size: 5vw;
     margin: 0;
@@ -46,12 +48,17 @@ nav ul li a {
     text-align: center;
     font-size: 1.5vw;
 }
+/* styles to hero begin */
 
+/* styles to my work begin */
 .my-work {
     text-align: center;
     padding-top: 350px;
 }
 
+.my-work-titled-images-container {
+    display: inline;
+}
 
 .self-driving-car-container:hover {
     opacity: 0.5;
@@ -87,11 +94,67 @@ nav ul li a {
 .hiking-app-image:hover {
     opacity: 0.5;
 }
+.hiking-app-container {
+    position: relative;
+    width: 600px;
+}
+
+.hiking-app-image {
+    display: inline;
+    width: 100%;
+}
+
+.ha-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 254, 254);
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
 
 .workout-app-image:hover {
     opacity: 0.5;
 }
 
+.workout-app-container {
+    position: relative;
+    width: 600px;
+}
+
+.workout-app-image {
+    display: inline;
+    width: 100%;
+}
+
+.wa-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 254, 254);
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+/* styles to my work end */
+
+/* styles to about me begin */
 .about-me {
     text-align: center;
     padding-top: 250px;
@@ -104,19 +167,16 @@ nav ul li a {
     padding-left: 200px;
     font-size: 2vw;
 }
+/* styles to about me end */
 
-.contact-me {
+/* styles to contact me begin */
+.contact-me h2 {
     text-align: center;
     padding-top: 350px;
 }
 
-.title1 {
-    text-align: left;
-    padding-left: 20px;
+.contact-list {
+    text-align: center;
+    list-style: none;
 }
-
-.title2 {
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 30px;
-}
+/* styles to contact me begin */
