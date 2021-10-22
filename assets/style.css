@@ -24,11 +24,19 @@ nav ul li a {
     list-style: none;
   }
 
-h1 {
+.main-tag h1 {
     font-size: 5vw;
     margin: 0;
     padding-top: 30px;
     text-align: center;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
 
 .main-tag{
@@ -44,45 +52,44 @@ h1 {
     padding-top: 350px;
 }
 
-#profile-pic {
-    border-radius: 50%;
+
+.self-driving-car-container:hover {
+    opacity: 0.5;
+}
+
+.self-driving-car-container {
+    position: relative;
+    width: 1420px;
+}
+
+.self-driving-car-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-}
-
-
-.self-driving-car {
     width: 100%;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.self-driving-car:hover {
+.sdc-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 254, 254);
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.hiking-app-image:hover {
     opacity: 0.5;
 }
 
-#workout-app:hover {
+.workout-app-image:hover {
     opacity: 0.5;
-}
-
-#hiking-app:hover {
-    opacity: 0.5;
-}
-
-#hiking-app {
-    width: 40%;
-    margin-left: -8px;
-    border-radius: 10px;
-    border-right: 10px;
-}
-
-
-#workout-app {
-    width: 58%;
-    margin-right: -50px;
 }
 
 .about-me {
