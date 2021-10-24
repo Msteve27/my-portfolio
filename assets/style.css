@@ -49,13 +49,13 @@ nav ul li a {
 .motto p {
     text-align: center;
     font-size: 1.5vw;
+    padding-bottom: 350px;
 }
 /* styles to hero begin */
 
 /* styles to my work begin */
 .my-work {
     text-align: center;
-    padding-top: 350px;
 }
 
 .my-work-titled-images-container {
@@ -178,14 +178,18 @@ nav ul li a {
     padding-top: 0px;
     padding-right: 200px;
     padding-left: 200px;
+    padding-bottom: 400px;
     font-size: 2vw;
 }
 /* styles to about me end */
 
 /* styles to contact me begin */
+footer {
+    padding-bottom: 500px;
+}
+
 .contact-me h2 {
     text-align: center;
-    padding-top: 350px;
 }
 
 .contact-list {
